@@ -9,4 +9,4 @@ https://github.com/CyberAgentHack/home-kubernetes-2020
 以下で紹介されているパーツを使って構築しました。  
 https://github.com/CyberAgentHack/home-kubernetes-2020/tree/master/how-to-create-cluster-physical
 
-![rasberry pi cluster](https://raw.githubusercontent.com/kumashun8/my-home-k8s/main/images/raspi-cluster.jpeg "rasberry pi cluster")
+<img src="https://raw.githubusercontent.com/kumashun8/my-home-k8s/main/images/raspi-cluster.jpeg" width="400" alt="raspi-cluster">
