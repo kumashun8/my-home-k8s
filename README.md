@@ -24,12 +24,19 @@ https://github.com/CyberAgentHack/home-kubernetes-2020/tree/master/how-to-create
     - Node1: 10.0.0.11
     - Node2: 10.0.0.12
     - Node3: 10.0.0.13
-- Node 外部通信用サブネット (例)
+- Node 外部通信用サブネット
   - 無線 LAN
   - 192.168.11.0/24
     - Node1: 192.168.11.17
     - Node2: 192.168.11.18
-    - Node3: 192.168.11.19
+    - Node3:
+- Pod 用サブネット
+  - 10.10.0.0/16
+    - Node1: 10.10.1.0/24
+    - Node2: 10.10.2.0/24
+    - Node3: 10.10.3.0/24
+- ClusterIP 用サブネット
+  - 10.32.0.0/24
 
 ### ホスト名
 
@@ -55,3 +62,5 @@ Disk identifier: 0xb59eb0cd
 ubuntu@iwatobi:~$ sudo dd if=/dev/mmcblk0 of=raspi.img bs=10M
 (実行中...)
 ```
+
+### 証明書の発行
