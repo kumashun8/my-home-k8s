@@ -27,9 +27,9 @@ https://github.com/CyberAgentHack/home-kubernetes-2020/tree/master/how-to-create
 - Node 外部通信用サブネット
   - 無線 LAN
   - 192.168.11.0/24
-    - Node1: 192.168.11.27
-    - Node2: 192.168.11.28
-    - Node3: 192.168.11.29
+    - Node1: 192.168.11.17
+    - Node2: 192.168.11.18
+    - Node3: 192.168.11.19
 - Pod 用サブネット
   - 10.10.0.0/16
     - Node1: 10.10.1.0/24
