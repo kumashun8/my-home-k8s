@@ -27,9 +27,9 @@ https://github.com/CyberAgentHack/home-kubernetes-2020/tree/master/how-to-create
 - Node 外部通信用サブネット
   - 無線 LAN
   - 192.168.11.0/24
-    - Node1: 192.168.11.17
-    - Node2: 192.168.11.18
-    - Node3:
+    - Node1: 192.168.11.27
+    - Node2: 192.168.11.28
+    - Node3: 192.168.11.29
 - Pod 用サブネット
   - 10.10.0.0/16
     - Node1: 10.10.1.0/24
@@ -42,9 +42,9 @@ https://github.com/CyberAgentHack/home-kubernetes-2020/tree/master/how-to-create
 
 なんとなくペンギン縛り。
 
-- Node1: **koutei**
-- Node2: **iwatobi**
-- Node3: **adelie**
+- Node1: **koutei** (MAC: e4:5f:01:00:63:b7)
+- Node2: **iwatobi** (MAC: e4:5f:01:47:84:dc)
+- Node3: **adelie** (MAC: dc:a6:32:da:65:4e)
 
 ### バックアップ
 
